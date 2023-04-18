@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="./assets/css/styles.css">
-
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Responsive Portfolio Website</title>
 </head>
 
@@ -92,7 +95,7 @@
 
                         </div>
                     </div>
-                    <div class="home__data">
+                    <div class="home__data" data-aos="fade-up">
                         <h1 class="home__title">Hi, I'm Dilmurod</h1>
                         <h3 class="home__subtitle">Frontend developer</h3>
                         <p class="home__description">I am interested in learning new technologies. I perform tasks
@@ -113,26 +116,31 @@
 
         <!--==================== ABOUT ====================-->
         <section class="about section" id="about">
-            <h2 class="section__title">About Me</h2>
-            <span class="section__subtitle">My introduction</span>
+            <h2 class="section__title" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">About Me</h2>
+            <span class="section__subtitle" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" >My introduction</span>
             <div class="about__container container grid">
                 <div class="about__img"></div>
                 <div class="about__data">
-                    <p class="about__description ">My name is Dilmurod, I was born on May 30, 2004. I was interested in
+                    <p class="about__description"  data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">My name is Dilmurod, I was born on May 30, 2004. I was interested in
                         computers since I was young and chose to become a programmer in the future. Now I am a 1st year
                         student of TATU University. I consider myself a junior programmer and I want to become a Senior.
                     </p>
-
                     <div class="about__info">
-                        <div>
+                        <div data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom">
                             <span class="about__info-title">0.8+</span>
                             <span class="about__info-name">Years <br> experience</span>
                         </div>
-                        <div>
+                        <div data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom">
                             <span class="about__info-title">20+</span>
                             <span class="about__info-name">Completed <br> project</span>
                         </div>
-                        <div>
+                        <div data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom">
                             <span class="about__info-title">03+</span>
                             <span class="about__info-name">Completed <br> worked</span>
                         </div>
@@ -149,11 +157,14 @@
 
         <!--==================== SKILLS ====================-->
         <section class="skills section" id="skills">
-            <h2 class="section__titles">Skills</h2>
-            <span class="section__subtitle">My technical level</span>
+            <h2 class="section__titles" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">Skills</h2>
+            <span class="section__subtitle" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">My technical level</span>
 
 
-            <div class="skills__container container grid">
+            <div class="skills__container container grid" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
                 <div>
                     <!--==================== SKILLS 1 ====================-->
                     <div class="skills__content skills__open">
@@ -499,11 +510,14 @@
 
         <!--==================== SERVICES ====================-->
         <section class="services section" id="services">
-            <h2 class="section__title">Services</h2>
-            <span class="section__subtitle">What i offer</span>
+            <h2 class="section__title" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">Services</h2>
+            <span class="section__subtitle" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">What i offer</span>
             <div class="services__container container grid">
                 <!--==================== SERVICES 1 ====================-->
-                <div class="services__content">
+                <div class="services__content" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
                     <div>
                         <i class="uil uil-web-grid services__icon"></i>
                         <h3 class="services__title">Ui/Ux <br> Designer </h3>
@@ -538,7 +552,8 @@
                     </div>
                 </div>
                 <!--==================== SERVICES 2 ====================-->
-                <div class="services__content">
+                <div class="services__content" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
                     <div>
                         <i class="uil uil-arrow services__icon"></i>
                         <h3 class="services__title">FrontEnd <br> Developer </h3>
@@ -586,7 +601,8 @@
                     </div>
                 </div>
                 <!--==================== SERVICES 3 ====================-->
-                <div class="services__content">
+                <div class="services__content" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
                     <div>
                         <i class="uil uil-pen services__icon"></i>
                         <h3 class="services__title">Branding <br> Designer </h3>
@@ -631,7 +647,8 @@
         <section class="portfolio section" id="portfolio">
             <h2 class="section__title">Portifolio</h2>
             <span class="section__subtitle">Most recent work</span>
-            <div class="portfolio__container container swiper mySwiper">
+            <div class="portfolio__container container swiper mySwiper" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
                 <div class="swiper-wrapper">
                     <!--====================PORTFOLIO 1====================-->
                     <div class="portfolio__content grid swiper-slide">
@@ -686,7 +703,7 @@
                         </a>
                     </div>
                     <div class="project__img">
-                        <div class="box">
+                        <div class="box" data-aos="fade-left">
                             <div class="content">
                                 <div class="img"></div>
                                 <h2>Dilmurod Muxtorov <br><span>Frontend Developer</span></h2>
@@ -702,8 +719,10 @@
         </section>
         <!--==================== TESTIMONIAL ====================-->
         <section class="testimonial section">
-            <h2 class="section__title">Testimonial</h2>
-            <span class="section__subtitle">My teachers</span>
+            <h2 class="section__title" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">Testimonial</h2>
+            <span class="section__subtitle" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">My teachers</span>
             <div class="testimonial__container container swiper-container">
                 <div class="swiper-wrapper">
                     <!--==================== TESTIMONIAL 1 ====================-->
@@ -774,10 +793,13 @@
         </section>
         <!--==================== CONTACT ME ====================-->
         <section class="contact section" id="contact">
-            <h2 class="section__title">Contact Me</h2>
-            <span class="section__subtitle">Get in touch</span>
+            <h2 class="section__title" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">Contact Me</h2>
+            <span class="section__subtitle" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">Get in touch</span>
 
-            <div class="contact__container container grid">
+            <div class="contact__container container grid" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
                 <div>
                     <div class="contact__information">
                         <i class="uil uil-phone contact__icon"></i>
@@ -801,7 +823,8 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact__form grid" action="https://formspree.io/f/meqwpbpv" method="POST"  enctype="multipart/form-data" >
+                <form class="contact__form grid" action="https://formspree.io/f/meqwpbpv" method="POST"  enctype="multipart/form-data" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom" >
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="" class="contact__label">Name</label>
@@ -889,6 +912,9 @@
       return false;
       }
       }
+      </script>
+      <script>
+        AOS.init();
       </script>
 
 </body>
