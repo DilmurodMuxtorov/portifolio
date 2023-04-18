@@ -1132,10 +1132,11 @@ font-weight: 700;
 
 /* Show scroll */
 .show-scroll {
-  bottom: 6rem;
+  bottom: 4rem;
 }
-
-
+.formbutton{
+bottom: 50px;
+}
 /*========== SCROLL BAR ==========*/
 ::-webkit-scrollbar {
   width: 0.6rem;
@@ -1599,4 +1600,3 @@ font-weight: 700;
   height: 150px;
   }
 }
-
